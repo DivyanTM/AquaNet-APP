@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.divyan.aquanet"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.divyan.aquanet"

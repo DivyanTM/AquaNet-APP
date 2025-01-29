@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">AquaNet</string>
+    <string name="mail_subheader_title">Subheader title</string>
+    <string name="inbox_title">Inbox title</string>
+    <string name="favourites_title">favourites title</string>
+    <string name="outbox_title">outbox title</string>
+    <string name="header_title">header title</string>
+    <string name="header_text">header text</string>
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
 </resources>
