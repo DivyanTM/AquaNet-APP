@@ -80,12 +80,16 @@ public class MainActivity extends AppCompatActivity {
     private void handleNavigationClick(MenuItem item) {
         int itemId = item.getItemId();
 
-        if (itemId == R.id.inbox_item) {
-            Toast.makeText(this, "Inbox Clicked", Toast.LENGTH_SHORT).show();
-        } else if (itemId == R.id.outbox_item) {
-            Toast.makeText(this, "Outbox Clicked", Toast.LENGTH_SHORT).show();
-        } else if (itemId == R.id.favourites_item) {
-            Toast.makeText(this, "Favourites Clicked", Toast.LENGTH_SHORT).show();
+        if (itemId == R.id.home_item) {
+            Toast.makeText(this, "Home clicked", Toast.LENGTH_SHORT).show();
+        } else if (itemId == R.id.charts_item) {
+            Toast.makeText(this, "Charts clicked", Toast.LENGTH_SHORT).show();
+        } else if (itemId == R.id.records_item) {
+            Toast.makeText(this, "Records clicked", Toast.LENGTH_SHORT).show();
+        }else if(itemId==R.id.contact_item){
+            Toast.makeText(this,"Contact Clicked",Toast.LENGTH_SHORT).show();
+        }else if(itemId==R.id.about_item){
+            Toast.makeText(this,"About clicked",Toast.LENGTH_SHORT).show();
         }
     }
 }

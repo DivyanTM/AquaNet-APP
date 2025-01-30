@@ -4,8 +4,13 @@
     <string name="inbox_title">Inbox title</string>
     <string name="favourites_title">favourites title</string>
     <string name="outbox_title">outbox title</string>
-    <string name="header_title">header title</string>
-    <string name="header_text">header text</string>
+    <string name="header_title">AquaNet</string>
+    <string name="header_text"></string>
     <string name="open">Open Drawer</string>
     <string name="close">Close Drawer</string>
+    <string name="home">Home</string>
+    <string name="chart">Charts</string>
+    <string name="records">Records</string>
+    <string name="about">About</string>
+    <string name="contact">Contact</string>
 </resources>
